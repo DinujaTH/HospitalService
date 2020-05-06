@@ -1,0 +1,2 @@
+# HospitalService
+ hospital service function
