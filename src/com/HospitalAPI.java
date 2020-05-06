@@ -78,7 +78,7 @@ public class HospitalAPI extends HttpServlet {
 
 		String output = hospitalObj.updateHospital(paras.get("hidhpIDSave").toString(), paras.get("hpCode").toString(),
 				paras.get("hpName").toString(), paras.get("hpTp").toString(), paras.get("hpAddress").toString(),
-				paras.get("hpDOC").toString(), paras.get("itemDesc").toString());
+				paras.get("hpDOC").toString(), paras.get("hpDesc").toString());
 		response.getWriter().write(output);
 	}
 
